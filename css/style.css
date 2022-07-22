@@ -1,0 +1,259 @@
+/* Default Styling */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    padding: 5%;
+}
+
+/* Header Styling */
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 0vw;
+}
+
+header nav .brand-logo img {
+    max-width: 25%;
+}
+
+header nav .nav-bar-menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .nav-bar-menu ul li a {
+    text-decoration: none;
+    margin: 1rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+/* Title Styling */
+
+section.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 0vw;
+    width: 100%;
+}
+
+/* section.title .title-des {
+    width: 40%;
+} */
+
+section.title .title-des span {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Avenir';
+}
+
+section.title .title-des span h1  {
+    font-size: 2.5rem;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: 'Avenir';
+}
+
+section.title .title-des p {
+    font-size: 1.9rem;
+    font-family: 'Avenir';
+    font-weight: 500;
+    padding: 1rem 0rem;
+}
+
+button {
+    padding: 3% 3%;
+    background-color: #00ABAE;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Avenir';
+    font-weight: 800;
+    border-radius: 0.3rem;
+    margin-right: 1%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#email {
+    color: black;
+}
+
+section.title .title-pic {
+    width: 50%;
+    margin-top: 2.5rem;
+}
+
+section.title .title-pic img.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #00ABAE;
+}
+
+/* Main Styling */
+
+main #about {
+    margin-bottom: 2rem;
+} 
+
+main #about .head {
+    padding: 2rem 0rem;
+    font-family: 'Avenir';
+} 
+
+main #about .about-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #575757;
+} 
+
+main #about .about-item .work h2 {
+    font-family: 'Roboto';
+    padding: 1rem 0rem;
+    margin-right: 6rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+} 
+ main #about .about-item .work p {
+    font-family: 'Roboto';
+    margin-right: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+} 
+
+main .skill-head h1 {
+    padding: 3rem 0rem;
+    font-family: 'Avenir';
+}
+
+main #skill .skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main #skill .skills img {
+    width: 5rem;
+}
+
+main .project-head h1 {
+    padding: 3rem 0rem;
+    font-family: 'Avenir';
+}
+
+main #project .proj-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+main #project .proj-item .project-des h2 {
+    padding: 1rem 0rem;
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+
+}
+
+main #project .proj-item .project-des .proj-des-detail {
+    padding: 2rem 0rem;
+}
+
+
+main #project .proj-item .project-des {
+    color: #575757;
+}
+
+main #project .proj-item .project-scst img.proj-pic {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.brand-logo span {
+    color: #00ABAE;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.brand-logo {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+
+footer#contact {
+    text-align: center;
+}
+
+footer#contact h1  {
+    padding: 2rem 0rem;
+    font-family: 'Roboto';
+}
+
+footer#contact p  {
+    padding-bottom: 2rem;
+    font-family: 'Roboto';
+    font-size: 100%;
+    font-weight: lighter;
+}
+
+footer#contact .social-icons img.git {
+    width: 2rem;
+    padding: 1rem 01rem 1.1rem 0rem;
+}
+
+footer#contact .social-icons img.link {
+    width: 2.2rem;
+    padding: 1rem 0rem;
+}
+
+footer#contact p#copy {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 800px){
+    .brand-logo{
+        width: 30%;
+    }
+    section.title{
+        flex-direction: column-reverse;
+    }
+    .btn{
+        display: flex;
+
+    }
+    .about-item{
+        flex-direction: column-reverse;
+    }
+    .hi{
+        
+    }
+    .proj-item{
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+}

@@ -1,8 +1,8 @@
 # New_Portfolio
-This portfolio is a small project using the HTML/CSS and Bootstrap. I will be using the this to showcase my projects and skills [LIVE HEROKU DEPLOYMENT](https://portfolio-shubhams.herokuapp.com/)
+This portfolio is a small project using the HTML/CSS and Bootstrap. I will be using the this to showcase my projects and skills [LIVE REPLIT DEPLOYMENT](https://newportfolio-1.jstackshubham.repl.co/)
 
 # Screenshot:
- <img width="1373" alt="Screenshot 2022-03-15 at 2 33 29 PM" src="https://user-images.githubusercontent.com/100840176/158343241-3ba369b4-1eb1-46df-addd-c26ad22bc953.png">
+![Screenshot 2022-11-08 at 7 49 20 AM](https://user-images.githubusercontent.com/100840176/200459028-a58cc84b-e550-4395-9b0b-d1b588b1b27f.png)
 
 # Technologies Used:
 * HTML 
